@@ -1,10 +1,58 @@
- xtransfer.x MESONH KWRAIN >> OUTPUT_TRANSFER001  2>&1 &                                             
- xtransfer.x MESONH KWRAIN >> OUTPUT_TRANSFER001  2>&1 &                                             
- xtransfer.x MESONH IDEAL_LANNEMEZAN_PGD >> OUTPUT_TRANSFER001  2>&1 &                               
- xtransfer.x MESONH IDEAL_LANNEMEZAN >> OUTPUT_TRANSFER002  2>&1 &                                   
- xtransfer.x MESONH IDEAL_LANNEMEZAN_PGD >> OUTPUT_TRANSFER001  2>&1 &                               
- xtransfer.x MESONH IDEAL_LANNEMEZAN >> OUTPUT_TRANSFER002  2>&1 &                                   
- xtransfer.x MESONH IDEAL_LANNEMEZAN_PGD >> OUTPUT_TRANSFER001  2>&1 &                               
- xtransfer.x MESONH IDEAL_LANNEMEZAN >> OUTPUT_TRANSFER002  2>&1 &                                   
- xtransfer.x MESONH IDEAL_LANNEMEZAN_PGD >> OUTPUT_TRANSFER001  2>&1 &                               
- xtransfer.x MESONH IDEAL_LANNEMEZAN >> OUTPUT_TRANSFER002  2>&1 &                                   
+ xtransfer.x MESONH KWRAI.1.SEG01.001 >> OUTPUT_TRANSFER001  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.002 >> OUTPUT_TRANSFER002  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.000 >> OUTPUT_TRANSFER003  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.001 >> OUTPUT_TRANSFER001  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.002 >> OUTPUT_TRANSFER002  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.003 >> OUTPUT_TRANSFER003  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.004 >> OUTPUT_TRANSFER004  2>&1 &                                  
+ xtransfer.x MESONH KWRAI.1.SEG01.000 >> OUTPUT_TRANSFER005  2>&1 &                                  
+ xtransfer.x MESONH REF  .1.000.001 >> OUTPUT_TRANSFER001  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.002 >> OUTPUT_TRANSFER002  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.003 >> OUTPUT_TRANSFER003  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.004 >> OUTPUT_TRANSFER004  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.005 >> OUTPUT_TRANSFER005  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.006 >> OUTPUT_TRANSFER006  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.007 >> OUTPUT_TRANSFER007  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.008 >> OUTPUT_TRANSFER008  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.009 >> OUTPUT_TRANSFER009  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.010 >> OUTPUT_TRANSFER010  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.011 >> OUTPUT_TRANSFER011  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.012 >> OUTPUT_TRANSFER012  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.013 >> OUTPUT_TRANSFER013  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.014 >> OUTPUT_TRANSFER014  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.015 >> OUTPUT_TRANSFER015  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.016 >> OUTPUT_TRANSFER016  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.017 >> OUTPUT_TRANSFER017  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.018 >> OUTPUT_TRANSFER018  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.019 >> OUTPUT_TRANSFER019  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.020 >> OUTPUT_TRANSFER020  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.021 >> OUTPUT_TRANSFER021  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.022 >> OUTPUT_TRANSFER022  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.023 >> OUTPUT_TRANSFER023  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.024 >> OUTPUT_TRANSFER024  2>&1 &                                    
+ xtransfer.x MESONH REF  .1.000.025 >> OUTPUT_TRANSFER025  2>&1 &                                    
+ xtransfer.x MESONH REF00.1.SEG00.001 >> OUTPUT_TRANSFER001  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.002 >> OUTPUT_TRANSFER002  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.003 >> OUTPUT_TRANSFER003  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.004 >> OUTPUT_TRANSFER004  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.005 >> OUTPUT_TRANSFER005  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.006 >> OUTPUT_TRANSFER006  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.007 >> OUTPUT_TRANSFER007  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.008 >> OUTPUT_TRANSFER008  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.009 >> OUTPUT_TRANSFER009  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.010 >> OUTPUT_TRANSFER010  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.011 >> OUTPUT_TRANSFER011  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.012 >> OUTPUT_TRANSFER012  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.013 >> OUTPUT_TRANSFER013  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.014 >> OUTPUT_TRANSFER014  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.015 >> OUTPUT_TRANSFER015  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.016 >> OUTPUT_TRANSFER016  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.017 >> OUTPUT_TRANSFER017  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.018 >> OUTPUT_TRANSFER018  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.019 >> OUTPUT_TRANSFER019  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.020 >> OUTPUT_TRANSFER020  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.021 >> OUTPUT_TRANSFER021  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.022 >> OUTPUT_TRANSFER022  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.023 >> OUTPUT_TRANSFER023  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.024 >> OUTPUT_TRANSFER024  2>&1 &                                  
+ xtransfer.x MESONH REF00.1.SEG00.000 >> OUTPUT_TRANSFER025  2>&1 &                                  

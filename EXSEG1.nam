@@ -1,0 +1,68 @@
+&NAM_CONFIO   LCDF4=T,
+              LLFIOUT=F,
+              LLFIREAD=F/
+
+&NAM_LUNITn CINIFILE ='IDEAL_LANNEMEZAN' ,
+            CINIFILEPGD='IDEAL_LANNEMEZAN_PGD' /
+
+&NAM_CONFn LUSERV=T /
+
+&NAM_DYNn     XTSTEP=10.0/
+
+&NAM_ADVn     CUVW_ADV_SCHEME="CEN4TH",
+              CTEMP_SCHEME='RKC4',
+              CMET_ADV_SCHEME="PPM_01",
+              CSV_ADV_SCHEME="PPM_01"/
+
+&NAM_PARAMn  CTURB='TKEL',
+             CRAD='ECMW',
+             CCLOUD='ICE3',
+             CDCONV='NONE',
+             CSCONV='EDKF'  /
+
+&NAM_PARAM_RADn XDTRAD=300., 
+                XDTRAD_CLONLY=300.,
+                CLW="RRTM",
+                NRAD_DIAG=1,
+                CAER='TEGE'/
+
+&NAM_LBCn     CLBCX = 2*"CYCL", 
+              CLBCY = 2*"CYCL"/ 
+
+&NAM_FRC      LRELAX_THRV_FRC=.TRUE.,
+              LRELAX_UV_FRC=.TRUE. /
+
+&NAM_TURBn    XIMPL=1.,
+              CTURBLEN='BL89',
+              CTURBDIM='1DIM',
+              LTURB_FLX=T,
+              LTURB_DIAG=T,
+              LSUBG_COND=F,
+              LSIGMAS=F,
+              LSIG_CONV=F,
+              LRMC01=T,
+              XKEMIN=1E-10/
+
+&NAM_CONF CCONF='START',
+          CEQNSYS ='DUR',
+          LFLAT=T,
+          NMODEL=1,
+          NVERB=6,
+          CEXP='REF00',
+          CSEG='SEG00',
+          LFORCING = .TRUE. /
+
+&NAM_DYN XSEGLEN=86400,
+         LCORIO=T,
+         LNUMDIFU = F,
+         LNUMDIFTH= F /
+
+&NAM_BACKUP XBAK_TIME_FREQ(1) =3600 ,
+            XBAK_TIME_FREQ_FIRST(1) =3600 /
+
+&NAM_LES LLES_MEAN=.TRUE., 
+         LLES_RESOLVED=.TRUE.,
+         LLES_SUBGRID=.TRUE.,
+         XLES_TEMP_SAMPLING=900./
+
+&NAM_DIAG_SURFn LSURF_BUDGET=T, N2M=2 /

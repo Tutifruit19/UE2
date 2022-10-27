@@ -1,0 +1,6 @@
+set -x
+set -e
+cp EXSEG1.nam SURF1.nam      
+ln -fs ../001_prep_ideal_case/KWRAIN.* .
+rm -f KWRAI.1.SEG* OUT*
+time ${MPIRUN} MESONH${XYZ}

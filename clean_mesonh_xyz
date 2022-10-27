@@ -1,0 +1,4 @@
+set -x
+rm -f SURF1.nam      
+rm -f KWRAI* OUT* pipe_name
+
